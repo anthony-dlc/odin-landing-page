@@ -5,16 +5,17 @@
   font-family: roboto;
 }
 
-.header{
-  max-width: 1200px;
+.header,
+.hero {
+  max-width: 1100px;
   margin: auto;
 }
 
-/* Header */
-
-.header-container {
+.header-container,
+.hero-container {
   background-color: #1f2937;
 }
+/* Header */
 
 .header {
   display: flex;
@@ -40,3 +41,57 @@
   text-decoration: none;
   color: #e5e7eb;
 }
+
+/* Hero-section */
+
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.only-container {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-content p {
+  font-size: 18px;
+  padding-right: 64px;
+  color: #e5e7eb;
+}
+
+.hero-content button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 8px 36px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+.hero-image {
+  background-color: #8c8e92;
+  color: #e5e7eb;
+  font-size: 18px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
