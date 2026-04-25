@@ -8,7 +8,8 @@
 .header,
 .hero,
 .info,
-.testimonial {
+.testimonial,
+.cta {
   max-width: 1100px;
   margin: auto;
 }
@@ -137,7 +138,7 @@
 /* Testimonial section */
 
 .testimonial-container {
-    background-color: #e5e7eb;
+  background-color: #e5e7eb;
 }
 
 .testimonial {
@@ -146,13 +147,11 @@
   font-style: italic;
   font-weight: 300;
   color: #1f2937;
-
 }
 
 .testimonial-box {
   padding: 32px;
 }
-
 
 .cite {
   font-size: 24px;
@@ -160,4 +159,44 @@
   font-style: normal;
   text-align: right;
   padding-right: 24px;
+}
+
+/* CTA section: */
+
+
+.cta {
+  padding: 128px 0;
+}
+
+.blue-cta {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  padding: 64px 128px;
+  border-radius: 8px;
+}
+
+.content-cta {
+  flex: 2;
+}
+
+.content-cta p {
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+.button-cta {
+  flex: 1;
+  text-align: right;
+}
+
+.button-cta button {
+  padding: 8px 36px;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 8px;
+  border: 3px solid #e5e7eb;
+  color: #e5e7eb;
+  background-color: transparent;
 }
